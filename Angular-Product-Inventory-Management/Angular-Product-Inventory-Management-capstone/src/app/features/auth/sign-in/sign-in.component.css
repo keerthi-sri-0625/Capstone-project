@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #eb8989;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+form {
+    background: #bffafb;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+h2 {
+    text-align: center;
+    color: #252857;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+    color:rgb(206, 35, 98)
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #94ede8;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input.ng-touched.ng-invalid {
+    border-color: rgb(195, 240, 29);
+}
+
+small {
+    color: rgb(177, 192, 125);
+    font-size: 12px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 15px;
+    background-color: #3fc15d;
+    color: rgb(55, 28, 28);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:disabled {
+    background-color: #8be3fb;
+    cursor: not-allowed;
+}
+
+.error-message {
+    color: rgb(117, 26, 26);
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 14px;
+}

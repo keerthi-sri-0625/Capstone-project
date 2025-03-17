@@ -1,0 +1,95 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "email": "keerthisri@example.com",
+      "password": "password123",
+      "firstName": "keerthi",
+      "lastName": "kanakala",
+      "location": "andhra pradesh",
+      "mobileNumber": "1234567890"
+    },
+    {
+      "id": 2,
+      "email": "anusha@example.com",
+      "password": "password456",
+      "firstName": "anusha",
+      "lastName": "pulapa",
+      "location": "vizag",
+      "mobileNumber": "0987654321"
+    },
+    {
+      "email": "keerthisri@example.com",
+      "password": "password123",
+      "firstName": "keerthi",
+      "lastName": "kanakala",
+      "location": "andhra pradesh",
+      "mobileNumber": "1234567890",
+      "id": 3
+    },
+    {
+      "email": "kanakalakeerthisri@gmail.com",
+      "password": "Keerthi",
+      "firstName": "keerthi sri",
+      "lastName": "kanakala",
+      "location": "vzm",
+      "mobileNumber": "6666666666",
+      "id": 6
+    },
+    {
+      "email": "anusha@example.com",
+      "password": "password456",
+      "firstName": "anusha",
+      "lastName": "pulapa",
+      "location": "vizag",
+      "mobileNumber": "0987654321",
+      "id": 4
+    },
+    {
+      "email": "anusha@example.com",
+      "password": "password456",
+      "firstName": "anusha",
+      "lastName": "pulapa",
+      "location": "vizag",
+      "mobileNumber": "0987654321",
+      "id": 5
+    },
+    {
+      "email": "kanakalakeerthisri@gmail.com",
+      "password": "Keerthi",
+      "firstName": "keerthi sri",
+      "lastName": "kanakala",
+      "location": "vzm",
+      "mobileNumber": "6666666666",
+      "id": 7
+    },
+    {
+      "email": "kanakalakeerthisri@gmail.com",
+      "password": "Keerthi",
+      "firstName": "keerthi sri",
+      "lastName": "kanakala",
+      "location": "vzm",
+      "mobileNumber": "6666666666",
+      "id": 8
+    }
+  ],
+  "products": [
+    {
+      "id": 102,
+      "name": "Smartphone",
+      "description": "Latest smartphone with 5G",
+      "manufacturer": "Mobile Inc",
+      "manufacturingDate": "2024-02-15",
+      "price": 800,
+      "quantity": 25
+    },
+    {
+      "name": "AC-Lg",
+      "description": "air conditioner",
+      "manufacturer": "LG",
+      "price": 20000,
+      "quantity": 2,
+      "id": 1742128036686
+    }
+  ]
+}

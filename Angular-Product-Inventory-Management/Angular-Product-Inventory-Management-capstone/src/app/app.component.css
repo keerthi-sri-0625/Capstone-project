@@ -1,0 +1,39 @@
+/* Ensure the body takes full height */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Style for the main content */
+main {
+    flex: 1; /* Pushes footer to the bottom */
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* Ensure header and footer have proper styling */
+app-header {
+    display: block;
+    background: #90eafc;
+    color: rgb(30, 21, 21);
+    text-align: center;
+    padding: 15px 0;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+app-footer {
+    display: block;
+    background: #f39696;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 14px;
+    position: relative;
+    width: 100%;
+}
